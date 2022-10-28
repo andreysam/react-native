@@ -2100,7 +2100,6 @@ class CellRenderer extends React.Component<
     );
 
     const onLayout =
-      (getItemLayout && !debug && !fillRateHelper.enabled()) ||
       !this.props.onCellLayout
         ? undefined
         : this._onLayout;
